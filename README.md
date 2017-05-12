@@ -2,7 +2,7 @@
 #
 #
 # This is based from the databricks spark-perf test harness
-# It runs on Openshift and uses pbench to collect telemetry data for
+# It runs on Openshift and uses pbench to collect telemetry data
 # across the entire Openshift cluster while each benchmark is running. 
 #
 # It assumes you have already build your spark cluster in OpenShift.
