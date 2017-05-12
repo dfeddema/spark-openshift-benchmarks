@@ -1,0 +1,328 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/fpm/FPGrowthTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/GaussianMixtureTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataLoader.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/LDATest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/TestRunner.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/feature/Word2VecTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/PICTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/linalg/BlockMatrixMultTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/fpm/PrefixSpanTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/StatTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/PerfTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/fpm/FPGrowthTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/GaussianMixtureTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataLoader.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/LDATest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/TestRunner.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/feature/Word2VecTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/PICTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/linalg/BlockMatrixMultTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/fpm/PrefixSpanTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/StatTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/PerfTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/fpm/FPGrowthTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/GaussianMixtureTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataLoader.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/LDATest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/TestRunner.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/feature/Word2VecTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/clustering/PICTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/linalg/BlockMatrixMultTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/fpm/PrefixSpanTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/StatTests.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/PerfTest.scala, /root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 14 sources: invalidated sources (14) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 14 Scala sources to /root/spark-perf-master/mllib-tests/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 6986c43c, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.101-4.b13.el7.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.101-4.b13.el7.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.101-4.b13.el7.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.101-4.b13.el7.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.101-4.b13.el7.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.101-4.b13.el7.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.101-4.b13.el7.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.101-4.b13.el7.x86_64/jre/classes:/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/root/spark-perf-master/mllib-tests/target/scala-2.11/classes:/root/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-4.6.jar:/root/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.2.jar:/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar:/root/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:/root/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.2.9.jar:/root/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.2.9.jar:/root/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.2.9.jar:/root/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/root/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.0.jar:/root/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar:/root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:6: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:7: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.linalg.distributed.RowMatrix[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:14: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mabstract class LinearAlgebraTests(sc: SparkContext) extends PerfTest {[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:16: not found: type RowMatrix[0m
+[0m[[31merror[0m] [0m  def runTest(rdd: RowMatrix, rank: Int)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:25: not found: type RowMatrix[0m
+[0m[[31merror[0m] [0m  var rdd: RowMatrix = _[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:10: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.random._[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:9: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.linalg.distributed.RowMatrix[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:40: not found: type RowMatrix[0m
+[0m[[31merror[0m] [0m      seed: Long = System.currentTimeMillis()): RowMatrix = {[0m
+[0m[[31merror[0m] [0m                                                ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:16: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:36: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m      sc: SparkContext,[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:50: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mclass SVDTest(sc: SparkContext) extends LinearAlgebraTests(sc) {[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:51: not found: type RowMatrix[0m
+[0m[[31merror[0m] [0m  override def runTest(data: RowMatrix, rank: Int) {[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:56: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mclass PCATest(sc: SparkContext) extends LinearAlgebraTests(sc) {[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:57: not found: type RowMatrix[0m
+[0m[[31merror[0m] [0m  override def runTest(data: RowMatrix, rank: Int) {[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:64: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mclass ColumnSummaryStatisticsTest(sc: SparkContext) extends LinearAlgebraTests(sc) {[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/LinearAlgebraTests.scala:65: not found: type RowMatrix[0m
+[0m[[31merror[0m] [0m  override def runTest(data: RowMatrix, rank: Int) {[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:6: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:7: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.ml.PredictionModel[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:8: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.ml.classification.{GBTClassificationModel, GBTClassifier, RandomForestClassificationModel, RandomForestClassifier, LogisticRegression}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:9: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.ml.regression.{GBTRegressionModel, GBTRegressor, RandomForestRegressionModel, RandomForestRegressor, LinearRegression}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:10: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.classification._[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:11: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.clustering.{KMeans, KMeansModel}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:12: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.linalg.{Vector, Vectors}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:13: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.optimization.{SquaredL2Updater, L1Updater, SimpleUpdater}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:14: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:15: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.regression._[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:16: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.tree.{GradientBoostedTrees, RandomForest}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:17: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.tree.configuration.{Algo, BoostingStrategy, QuantileStrategy, Strategy}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:18: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.tree.impurity.Variance[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:19: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.tree.loss.{LogLoss, SquaredError}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:20: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.tree.model.{GradientBoostedTreesModel, RandomForestModel}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:21: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.RDD[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:22: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.sql.Row[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:23: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.sql.SQLContext[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:28: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mabstract class RegressionAndClassificationTests[M](sc: SparkContext) extends PerfTest {[0m
+[0m[[31merror[0m] [0m                                                       ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:30: not found: type RDD[0m
+[0m[[31merror[0m] [0m  def runTest(rdd: RDD[LabeledPoint]): M[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:32: not found: type RDD[0m
+[0m[[31merror[0m] [0m  def validate(model: M, rdd: RDD[LabeledPoint]): Double[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:40: not found: type RDD[0m
+[0m[[31merror[0m] [0m  var rdd: RDD[LabeledPoint] = _[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:41: not found: type RDD[0m
+[0m[[31merror[0m] [0m  var testRdd: RDD[LabeledPoint] = _[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:62: not found: type RDD[0m
+[0m[[31merror[0m] [0m  def calculateAccuracy(predictions: RDD[(Double, Double)], numExamples: Long): Double = {[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:73: not found: type RDD[0m
+[0m[[31merror[0m] [0m  def calculateRMSE(predictions: RDD[(Double, Double)], numExamples: Long): Double = {[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:83: not found: type GeneralizedLinearModel[0m
+[0m[[31merror[0m] [0m  extends RegressionAndClassificationTests[GeneralizedLinearModel](sc) {[0m
+[0m[[31merror[0m] [0m                                           ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:82: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mabstract class GLMTests(sc: SparkContext)[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:97: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mclass GLMRegressionTest(sc: SparkContext) extends GLMTests(sc) {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:15: object spark is not a member of package org.apache[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.rdd.{PairRDDFunctions, RDD}[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:28: not found: type RDD[0m
+[0m[[31merror[0m] [0m      problem: String = ""): RDD[LabeledPoint] = {[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:21: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m      sc: SparkContext,[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:129: not found: type GeneralizedLinearModel[0m
+[0m[[31merror[0m] [0m  override def validate(model: GeneralizedLinearModel, rdd: RDD[LabeledPoint]): Double = {[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:129: not found: type RDD[0m
+[0m[[31merror[0m] [0m  override def validate(model: GeneralizedLinearModel, rdd: RDD[LabeledPoint]): Double = {[0m
+[0m[[31merror[0m] [0m                                                            ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:131: not found: type RDD[0m
+[0m[[31merror[0m] [0m    val predictions: RDD[(Double, Double)] = rdd.map { example =>[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:137: not found: type GeneralizedLinearModel[0m
+[0m[[31merror[0m] [0m  override def runTest(rdd: RDD[LabeledPoint]): GeneralizedLinearModel = {[0m
+[0m[[31merror[0m] [0m                                                ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:137: not found: type RDD[0m
+[0m[[31merror[0m] [0m  override def runTest(rdd: RDD[LabeledPoint]): GeneralizedLinearModel = {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:157: not found: type LinearRegression[0m
+[0m[[31merror[0m] [0m      val rr = new LinearRegression()[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:161: not found: type SQLContext[0m
+[0m[[31merror[0m] [0m      val sqlContext = new SQLContext(rdd.context)[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:165: not found: type LinearRegressionModel[0m
+[0m[[31merror[0m] [0m      new LinearRegressionModel(Vectors.fromML(mlModel.coefficients), [0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:165: not found: value Vectors[0m
+[0m[[31merror[0m] [0m      new LinearRegressionModel(Vectors.fromML(mlModel.coefficients), [0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:173: not found: type LinearRegressionWithSGD[0m
+[0m[[31merror[0m] [0m          val lr = new LinearRegressionWithSGD().setIntercept(addIntercept = true)[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:173: not found: value addIntercept[0m
+[0m[[31merror[0m] [0m          val lr = new LinearRegressionWithSGD().setIntercept(addIntercept = true)[0m
+[0m[[31merror[0m] [0m                                                              ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:180: not found: type LassoWithSGD[0m
+[0m[[31merror[0m] [0m          val lasso = new LassoWithSGD().setIntercept(addIntercept = true)[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:180: not found: value addIntercept[0m
+[0m[[31merror[0m] [0m          val lasso = new LassoWithSGD().setIntercept(addIntercept = true)[0m
+[0m[[31merror[0m] [0m                                                      ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:188: not found: type RidgeRegressionWithSGD[0m
+[0m[[31merror[0m] [0m          val rr = new RidgeRegressionWithSGD().setIntercept(addIntercept = true)[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:188: not found: value addIntercept[0m
+[0m[[31merror[0m] [0m          val rr = new RidgeRegressionWithSGD().setIntercept(addIntercept = true)[0m
+[0m[[31merror[0m] [0m                                                             ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:204: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mclass GLMClassificationTest(sc: SparkContext) extends GLMTests(sc) {[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:216: not found: type GeneralizedLinearModel[0m
+[0m[[31merror[0m] [0m  override def validate(model: GeneralizedLinearModel, rdd: RDD[LabeledPoint]): Double = {[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:216: not found: type RDD[0m
+[0m[[31merror[0m] [0m  override def validate(model: GeneralizedLinearModel, rdd: RDD[LabeledPoint]): Double = {[0m
+[0m[[31merror[0m] [0m                                                            ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:218: not found: type RDD[0m
+[0m[[31merror[0m] [0m    val predictions: RDD[(Double, Double)] = rdd.map { example =>[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:55: not found: type RDD[0m
+[0m[[31merror[0m] [0m      chiSq: Boolean = false): RDD[LabeledPoint] = {[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:48: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m      sc: SparkContext,[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:245: not found: type GeneralizedLinearModel[0m
+[0m[[31merror[0m] [0m  override def runTest(rdd: RDD[LabeledPoint]): GeneralizedLinearModel = {[0m
+[0m[[31merror[0m] [0m                                                ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:245: not found: type RDD[0m
+[0m[[31merror[0m] [0m  override def runTest(rdd: RDD[LabeledPoint]): GeneralizedLinearModel = {[0m
+[0m[[31merror[0m] [0m                            ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:267: not found: type LogisticRegression[0m
+[0m[[31merror[0m] [0m          val lor = new LogisticRegression()[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:271: not found: type SQLContext[0m
+[0m[[31merror[0m] [0m          val sqlContext = new SQLContext(rdd.context)[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:274: not found: type LogisticRegressionModel[0m
+[0m[[31merror[0m] [0m          new LogisticRegressionModel(Vectors.fromML(mlModel.coefficients), mlModel.intercept)[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:274: not found: value Vectors[0m
+[0m[[31merror[0m] [0m          new LogisticRegressionModel(Vectors.fromML(mlModel.coefficients), mlModel.intercept)[0m
+[0m[[31merror[0m] [0m                                      ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:282: not found: type SimpleUpdater[0m
+[0m[[31merror[0m] [0m        case "none" => new SimpleUpdater[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:283: not found: type L1Updater[0m
+[0m[[31merror[0m] [0m        case "l1" => new L1Updater[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:284: not found: type SquaredL2Updater[0m
+[0m[[31merror[0m] [0m        case "l2" => new SquaredL2Updater[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:288: not found: type LogisticRegressionWithSGD[0m
+[0m[[31merror[0m] [0m          val lr = new LogisticRegressionWithSGD()[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:297: not found: type LogisticRegressionWithLBFGS[0m
+[0m[[31merror[0m] [0m          val lr = new LogisticRegressionWithLBFGS()[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:304: not found: type SVMWithSGD[0m
+[0m[[31merror[0m] [0m          val svm = new SVMWithSGD()[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:322: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mabstract class RecommendationTests(sc: SparkContext) extends PerfTest {[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:324: not found: type MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m  def runTest(rdd: RDD[Rating]): MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:324: not found: type RDD[0m
+[0m[[31merror[0m] [0m  def runTest(rdd: RDD[Rating]): MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:341: not found: type RDD[0m
+[0m[[31merror[0m] [0m  var rdd: RDD[Rating] = _[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:342: not found: type RDD[0m
+[0m[[31merror[0m] [0m  var testRdd: RDD[Rating] = _[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:294: not found: type RDD[0m
+[0m[[31merror[0m] [0m      seed: Long = System.currentTimeMillis()): (RDD[Rating],RDD[Rating]) = {[0m
+[0m[[31merror[0m] [0m                                                 ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:294: not found: type RDD[0m
+[0m[[31merror[0m] [0m      seed: Long = System.currentTimeMillis()): (RDD[Rating],RDD[Rating]) = {[0m
+[0m[[31merror[0m] [0m                                                             ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:288: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m      sc: SparkContext,[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:362: not found: type MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m  def validate(model: MatrixFactorizationModel,[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:363: not found: type RDD[0m
+[0m[[31merror[0m] [0m               data: RDD[Rating]): Double = {[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:365: not found: type RDD[0m
+[0m[[31merror[0m] [0m    val predictions: RDD[Rating] = model.predict(data.map(x => (x.user, x.product)))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:366: not found: type RDD[0m
+[0m[[31merror[0m] [0m    val predictionsAndRatings: RDD[(Double, Double)] = predictions.map{ x =>[0m
+[0m[[31merror[0m] [0m                               ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:400: not found: type SparkContext[0m
+[0m[[31merror[0m] [0mabstract class ClusteringTests(sc: SparkContext) extends PerfTest {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:402: not found: type KMeansModel[0m
+[0m[[31merror[0m] [0m  def runTest(rdd: RDD[Vector]): KMeansModel[0m
+[0m[[31merror[0m] [0m                                 ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:402: not found: type RDD[0m
+[0m[[31merror[0m] [0m  def runTest(rdd: RDD[Vector]): KMeansModel[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:414: not found: type RDD[0m
+[0m[[31merror[0m] [0m  var rdd: RDD[Vector] = _[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:415: not found: type RDD[0m
+[0m[[31merror[0m] [0m  var testRdd: RDD[Vector] = _[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:417: not found: type KMeansModel[0m
+[0m[[31merror[0m] [0m  def validate(model: KMeansModel, rdd: RDD[Vector]): Double = {[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/MLAlgorithmTests.scala:417: not found: type RDD[0m
+[0m[[31merror[0m] [0m  def validate(model: KMeansModel, rdd: RDD[Vector]): Double = {[0m
+[0m[[31merror[0m] [0m                                        ^[0m
+[0m[[31merror[0m] [0m/root/spark-perf-master/mllib-tests/v2p0/src/main/scala/mllib/perf/util/DataGenerator.scala:278: not found: type RDD[0m
+[0m[[31merror[0m] [0m      seed: Long = System.currentTimeMillis()): RDD[Vector] = {[0m
+[0m[[31merror[0m] [0m                                                ^[0m
+[0m[[31merror[0m] [0m365 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
