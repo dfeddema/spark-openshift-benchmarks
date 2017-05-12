@@ -5,7 +5,7 @@
 # It runs on Openshift and uses pbench to collect telemetry data
 # across the entire Openshift cluster while each benchmark is running. 
 #
-# It assumes you have already build your spark cluster in OpenShift.
+# It assumes you have already built your spark cluster in OpenShift using Oshinko.
 #
 # Pbench archives the performance data in elastic search
 #
