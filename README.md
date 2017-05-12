@@ -7,7 +7,7 @@
 
  It assumes you have already built your spark cluster in OpenShift using Oshinko.
 
- Pbench archives the performance data in elastic search
+ Pbench archives the performance data in elastic search.
 
 **IMPORTANT:**  Pbench agents must be installed on all nodes in the spark cluster before running these tests 
                 This test harness must be run by 'root' because pbench requires root privileges 
